@@ -1,0 +1,78 @@
+```gitignore
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# ==============================
+# Virtual environments
+# ==============================
+venv/
+.venv/
+env/
+ENV/
+
+# ==============================
+# Environment variables and secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Streamlit
+# ==============================
+.streamlit/secrets.toml
+
+# ==============================
+# Databases and runtime data
+# ==============================
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# ==============================
+# Logs and temporary files
+# ==============================
+*.log
+*.tmp
+*.bak
+*.swp
+*.orig
+~*
+
+# ==============================
+# Backups
+# ==============================
+*.backup
+*.backup.*
+*.before-*
+app.backup-*.py
+
+# ==============================
+# IDE and operating system
+# ==============================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Test and coverage artifacts
+# ==============================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# Generated Python artifacts
+# ==============================
+*.pyc
+```

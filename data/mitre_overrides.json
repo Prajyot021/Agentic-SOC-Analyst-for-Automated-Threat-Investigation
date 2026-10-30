@@ -1,0 +1,16 @@
+{
+  "overrides": [
+    {
+      "rule_id": "92032",
+      "process_name": "systeminfo.exe",
+      "mitre_technique_id": "T1082",
+      "reason": "System information discovery"
+    },
+    {
+      "rule_id": "92032",
+      "process_name": "tasklist.exe",
+      "mitre_technique_id": "T1057",
+      "reason": "Process discovery"
+    }
+  ]
+}

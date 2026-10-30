@@ -1,0 +1,6 @@
+{
+  "target-win10": {
+    "criticality": "medium",
+    "owner": "SOC Lab"
+  }
+}
